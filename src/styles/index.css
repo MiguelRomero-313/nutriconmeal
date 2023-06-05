@@ -9,25 +9,6 @@ body {
   font-size: 20px;
 }
 
-.nav {
-  background-color: #cb9998;
-}
-
-.nav-item a:hover,
-.btn-primary:hover {
-  background-color: #a46872;
-  border-color: #a46872;
-  border-radius: 16px;
-}
-.navbar-brand {
-  font-size: 25px;
-  margin-left: 5%;
-}
-.navbar-collapse {
-  font-size: 19px;
-  margin-left: 70%;
-}
-
 .home {
   width: 30%;
   border-radius: 35px;
