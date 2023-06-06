@@ -9,7 +9,9 @@ const Main = () => {
           className="home"
         />
         <div className="text-home">
-          <h1>Mistery Lux</h1>
+          <h1>
+            <i>Mistery Lux®</i>
+          </h1>
           <h2>Velas con dedicatoria</h2>
           <p>
             <br />
@@ -58,6 +60,29 @@ const Main = () => {
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="contain1" style={{ flexDirection: "row" }}>
+        <img
+          src={`${import.meta.env.BASE_URL}/Mistery Lux.svg`}
+          alt="Slogan"
+          className="home"
+        />
+        <div className="text-home">
+          <h1>Sobre nosotros</h1>
+          <h2>
+            Un poco mas sobre <i>Mistery Lux®</i>...
+          </h2>
+          <p>
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+            impedit.
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi odit,
+            error, et reiciendis in explicabo quam a praesentium dolorum aperiam
+            repudiandae voluptatibus esse fugiat earum nostrum nemo aliquam
+            nihil voluptate.
+          </p>
         </div>
       </div>
     </div>

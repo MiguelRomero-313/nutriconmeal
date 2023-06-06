@@ -16,7 +16,6 @@
 
 .home {
   width: 20%;
-  border-radius: 35px;
   margin: 1.5rem 0.5rem;
 }
 
@@ -31,6 +30,7 @@
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .m-ctn {
