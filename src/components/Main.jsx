@@ -4,7 +4,10 @@ const Main = () => {
   return (
     <div className="contenido">
       <div className="contain1">
-        <img src="/logo.png" className="home" />
+        <img
+          src={`${import.meta.env.BASE_URL}/Imagotipo.svg`}
+          className="home"
+        />
         <div className="text-home">
           <h1>Mistery Lux</h1>
           <h2>Velas con dedicatoria</h2>
@@ -20,7 +23,7 @@ const Main = () => {
         <div className="s-ctn responsive">
           <div className="card" style={{ maxWidth: "500px" }}>
             <img
-              src="/home/vela1.png"
+              src={`${import.meta.env.BASE_URL}/home/vela1.png`}
               className="vela1 card-img-end img-fluid rounded-start"
               alt="..."
             />
@@ -40,7 +43,7 @@ const Main = () => {
         <div className="s-ctn responsive">
           <div className="card" style={{ maxWidth: "500px" }}>
             <img
-              src="/home/vela2.png"
+              src={`${import.meta.env.BASE_URL}/home/vela2.png`}
               className="vela1 card-img-end img-fluid rounded-start"
               alt="..."
             />

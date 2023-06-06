@@ -6,16 +6,16 @@ const Foot = () => {
       <div>
         <p>Síguenos en nuestras redes sociales:</p>
         <a href="https://www.instagram.com/misteryluxmx/" target="_blank">
-          <img src="/contact/instagram.svg" />
+          <img src={`${import.meta.env.BASE_URL}/contact/instagram.svg`} />
         </a>
         <a
           href="https://www.facebook.com/people/Mistery-Lux/100092727324060/"
           target="_blank"
         >
-          <img src="/contact/facebook.svg" />
+          <img src={`${import.meta.env.BASE_URL}/contact/facebook.svg`} />
         </a>
         <a href="#" target="_blank">
-          <img src="/contact/email.svg" />
+          <img src={`${import.meta.env.BASE_URL}/contact/email.svg`} />
         </a>
       </div>
       <div>2023,MisteryLux®. Todos los derechos reservados.</div>
