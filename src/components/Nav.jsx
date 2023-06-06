@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src="/Imagotipo.svg" alt="logotipo" />
+          <img src="MysteryLux-Landing/Imagotipo.svg" alt="logotipo" />
         </a>
         <button
           className="navbar-toggler"
