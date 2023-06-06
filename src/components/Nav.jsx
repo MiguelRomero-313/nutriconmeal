@@ -5,7 +5,10 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src="public/Imagotipo.svg" alt="logotipo" />
+          <img
+            src={`${import.meta.env.BASE_URL}/Imagotipo.svg`}
+            alt="logotipo"
+          />
         </a>
         <button
           className="navbar-toggler"
