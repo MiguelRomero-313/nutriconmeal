@@ -6,5 +6,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: "https://miguelrlia117.github.io",
-  base: "/MisteryLux-Landing",
+  base: "/misterylux-landing",
 });
