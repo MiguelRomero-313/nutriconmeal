@@ -1,0 +1,67 @@
+.contenido {
+  margin: 3%;
+}
+
+.btn-primary {
+  background-color: #cb9998;
+  border-color: #9c5549;
+  border-radius: 8px;
+  color: black;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  border-color: #9c5549;
+}
+
+.home {
+  width: 20%;
+  border-radius: 35px;
+  margin: 1.5rem 0.5rem;
+}
+
+.text-home {
+  margin: 1rem;
+}
+
+.contain1 {
+  background-color: #e1dad0;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.m-ctn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.s-ctn {
+  margin-top: 25px;
+}
+
+.card {
+  border-radius: 35px;
+}
+
+.vela1 {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .m-ctn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contain1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .home {
+    width: 40%;
+    margin: 1rem;
+  }
+}

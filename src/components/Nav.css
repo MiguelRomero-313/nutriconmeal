@@ -1,3 +1,7 @@
+.navbar {
+  background-color: #ecdada;
+}
+
 .nav-item a,
 .btn-primary {
   transition: 0.5s all;

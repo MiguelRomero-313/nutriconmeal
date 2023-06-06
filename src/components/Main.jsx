@@ -2,10 +2,10 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div class="contenido">
-      <div class="contain1">
-        <img src="/logo.png" class="home" />
-        <div class="text-home">
+    <div className="contenido">
+      <div className="contain1">
+        <img src="/logo.png" className="home" />
+        <div className="text-home">
           <h1>Mistery Lux</h1>
           <h2>Velas con dedicatoria</h2>
           <p>
@@ -16,43 +16,44 @@ const Main = () => {
           </p>
         </div>
       </div>
-
-      <div class="contain2 responsive">
-        <div class="card" style="max-width: 500px;">
-          <img
-            src="/home/vela1.png"
-            class="vela1 card-img-end img-fluid rounded-start"
-            alt="..."
-          />
-          <div class="card-body">
-            <h4 class="card-title">Vela con papel encerado</h4>
-            <p>
-              Esta es una vela que al encenderla comenzará a visualizarse la
-              dedicatoria que desees sobre papel.
-            </p>
-            <a href="#" class="btn btn-primary">
-              Personalizar
-            </a>
+      <div className="m-ctn">
+        <div className="s-ctn responsive">
+          <div className="card" style={{ maxWidth: "500px" }}>
+            <img
+              src="/home/vela1.png"
+              className="vela1 card-img-end img-fluid rounded-start"
+              alt="..."
+            />
+            <div className="card-body">
+              <h4 className="card-title">Vela con papel encerado</h4>
+              <p>
+                Esta es una vela que al encenderla comenzará a visualizarse la
+                dedicatoria que desees sobre papel.
+              </p>
+              <a href="#" className="btn btn-primary">
+                Personalizar
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="contain2 responsive">
-        <div class="card" style="max-width: 500px;">
-          <img
-            src="/home/vela2.png"
-            class="vela1 card-img-end img-fluid rounded-start"
-            alt="..."
-          />
-          <div class="card-body">
-            <h4 class="card-title">Vela con cuentitas</h4>
-            <p>
-              Esta es una vela que al encenderla comenzará a visualizarse la
-              dedicatoria que desees sobre papel.
-            </p>
-            <a href="#" class="btn btn-primary">
-              Personalizar
-            </a>
+        <div className="s-ctn responsive">
+          <div className="card" style={{ maxWidth: "500px" }}>
+            <img
+              src="/home/vela2.png"
+              className="vela1 card-img-end img-fluid rounded-start"
+              alt="..."
+            />
+            <div className="card-body">
+              <h4 className="card-title">Vela con cuentitas</h4>
+              <p>
+                Esta es una vela que al encenderla comenzará a visualizarse la
+                dedicatoria que desees sobre papel.
+              </p>
+              <a href="#" className="btn btn-primary">
+                Personalizar
+              </a>
+            </div>
           </div>
         </div>
       </div>
