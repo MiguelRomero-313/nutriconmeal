@@ -2,6 +2,8 @@
 
 ## Sitio de aterrizaje para Mistery Lux: velas con dedicatoria
 
+- live demo: https://miguelrlia117.github.io/MisteryLux-Landing/
+
 **Licenciatura:** Informática Administrativa  
 **Materia:** Prospectiva Informática  
 **Realizado por:**
