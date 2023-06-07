@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #ecdada;
+  background-color: #e1dad0;
 }
 
 .nav-item a,
@@ -10,7 +10,7 @@
 
 .nav-item a:hover,
 .btn-primary:hover {
-  background-color: #cc8c96;
+  background-color: #cb9998;
   border-radius: 20px;
 }
 .navbar-brand img {

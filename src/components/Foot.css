@@ -1,8 +1,7 @@
 .contacto {
   font-size: 20px;
   padding: 20px 20px;
-  margin-top: 5rem;
-  background-color: #a57877;
+  background-color: #a46872;
   color: white;
   text-align: center;
   height: 150px;
@@ -17,5 +16,5 @@
 }
 
 .contacto img:hover {
-  background-color: white;
+  background-color: #e1dad0;
 }

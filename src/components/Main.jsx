@@ -1,4 +1,5 @@
 import "./Main.css";
+import Button from "./Button";
 
 const Main = () => {
   return (
@@ -35,9 +36,7 @@ const Main = () => {
                 Esta es una vela que al encenderla comenzará a visualizarse la
                 dedicatoria que desees sobre papel.
               </p>
-              <a href="#" className="btn btn-primary">
-                Personalizar
-              </a>
+              <Button />
             </div>
           </div>
         </div>
@@ -55,33 +54,43 @@ const Main = () => {
                 Esta es una vela que al encenderla comenzará a visualizarse la
                 dedicatoria que desees sobre papel.
               </p>
-              <a href="#" className="btn btn-primary">
-                Personalizar
-              </a>
+              <Button />
             </div>
           </div>
         </div>
       </div>
-      <div className="contain1" style={{ flexDirection: "row" }}>
+      <div className="contain1" id="about">
         <img
-          src={`${import.meta.env.BASE_URL}/Mistery Lux.svg`}
-          alt="Slogan"
+          src={`${import.meta.env.BASE_URL}/wp-misterylux.jpg`}
+          alt="Art"
           className="home"
         />
         <div className="text-home">
           <h1>Sobre nosotros</h1>
           <h2>
-            Un poco mas sobre <i>Mistery Lux®</i>...
+            Misión de <i>Mistery Lux®</i>
           </h2>
           <p>
-            <br />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-            impedit.
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi odit,
-            error, et reiciendis in explicabo quam a praesentium dolorum aperiam
-            repudiandae voluptatibus esse fugiat earum nostrum nemo aliquam
-            nihil voluptate.
+            Nuestra misión es llevar luz y amor a la vida de las personas a
+            través de nuestras velas con dedicatoria. Buscamos ofrecer una
+            experiencia única y personalizada, que permita a nuestros clientes
+            expresar sus sentimientos más profundos de manera especial y
+            significativa. Nos esforzamos por crear velas de alta calidad, con
+            diseños únicos y una amplia gama de fragancias, para satisfacer las
+            necesidades y preferencias de nuestros clientes.
+          </p>
+          <h2>
+            Visión de <i>Mistery Lux®</i>
+          </h2>
+          <p>
+            Nuestra visión es convertirnos en la marca líder en el mercado de
+            velas con dedicatoria, reconocida por la calidad y originalidad de
+            nuestros productos. Queremos ser la opción preferida de nuestros
+            clientes al momento de elegir un regalo especial y emotivo, y
+            expandir nuestra presencia a nivel nacional e internacional. Además,
+            nos comprometemos a ser una empresa socialmente responsable y
+            sostenible, contribuyendo al bienestar de nuestra comunidad y al
+            cuidado del medio ambiente.
           </p>
         </div>
       </div>

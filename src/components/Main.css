@@ -1,26 +1,22 @@
 .contenido {
   margin: 3%;
 }
-
-.btn-primary {
-  background-color: #cb9998;
-  border-color: #9c5549;
-  border-radius: 8px;
-  color: black;
-  font-size: 20px;
-}
-
-.btn-primary:hover {
-  border-color: #9c5549;
-}
-
 .home {
-  width: 20%;
-  margin: 1.5rem 0.5rem;
+  width: 25%;
+  margin: 1.5rem;
+}
+
+#about .home {
+  border-radius: 20px;
+  margin-left: 2rem;
 }
 
 .text-home {
   margin: 1rem;
+}
+
+#about .text-home {
+  margin: 2rem;
 }
 
 .contain1 {
@@ -31,6 +27,11 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+}
+
+.contain1#about {
+  flex-direction: row;
+  margin-bottom: -25px;
 }
 
 .m-ctn {
@@ -56,12 +57,14 @@
     flex-direction: column;
     align-items: center;
   }
-  .contain1 {
+  .contain1,
+  .contain1#about {
     flex-direction: column;
     text-align: center;
   }
+
   .home {
     width: 40%;
-    margin: 1rem;
+    margin: 1.5rem;
   }
 }
