@@ -2,12 +2,32 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Button.css";
 
-function Button() {
+const Button = () => {
+  let link, resultado;
+
+  const assignation = () => {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(
+          (link =
+            "https://m.me/104091672708227?ref=Facebook%20messenger%20Copy")
+        );
+      }, 3500);
+    });
+  };
+
+  const asyncCall = async () => {
+    const result = await assignation();
+    return result;
+  };
+
   return (
     <>
       <a
-        onClick={() => {
-          toast.warn("Funcionalidad en desarrollo");
+        onClick={async () => {
+          toast.info("Redirigiendo a nuestro chatbot...");
+          const resultado = await asyncCall();
+          window.open(resultado, "_blank");
         }}
         className="btn btn-primary"
       >
@@ -15,7 +35,7 @@ function Button() {
       </a>
       <ToastContainer
         position="bottom-right"
-        autoClose={3500}
+        autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
@@ -31,6 +51,6 @@ function Button() {
       />
     </>
   );
-}
+};
 
 export default Button;

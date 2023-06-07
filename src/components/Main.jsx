@@ -15,10 +15,11 @@ const Main = () => {
           </h1>
           <h2>Velas con dedicatoria</h2>
           <p>
-            <br />
-            ¿Quieres sorprender a esa persona especial con un lindo mensaje?
-            <br />
-            Comprale una vela con una bonita dedicatoria
+            <b>
+              ¿Quieres sorprender a esa persona especial con un lindo mensaje?
+              <br />
+              Comprale una vela con una bonita dedicatoria
+            </b>
           </p>
         </div>
       </div>
@@ -51,8 +52,8 @@ const Main = () => {
             <div className="card-body">
               <h4 className="card-title">Vela con cuentitas</h4>
               <p>
-                Esta es una vela que al encenderla comenzará a visualizarse la
-                dedicatoria que desees sobre papel.
+                Esta es una vela que al encenderla comenzarán a visualizarse las
+                cuentitas con el texto que desees.
               </p>
               <Button />
             </div>
@@ -93,6 +94,27 @@ const Main = () => {
             cuidado del medio ambiente.
           </p>
         </div>
+      </div>
+      <div className="contain1" id="contact">
+        <form name="contact">
+          <h2 style={{ marginBottom: "2rem" }}>Formulario de contacto</h2>
+          <label>
+            Nombre completo:
+            <input type="text" name="nombre" />
+          </label>
+          <label>
+            Correo Electrónico:
+            <input type="mail" name="correo" />
+          </label>
+          <textarea
+            type="text"
+            name="mensaje"
+            placeholder="Escribe tu mensaje"
+          />
+          <button type="submit" className="btn btn-primary">
+            Enviar
+          </button>
+        </form>
       </div>
     </div>
   );
