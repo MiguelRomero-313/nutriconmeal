@@ -1,12 +1,19 @@
-a.btn-primary {
+.btn-primary {
   background-color: #cb9998;
   border-color: #a46872;
   border-radius: 8px;
   color: black;
   font-size: 20px;
+  width: 100%;
 }
 
-a.btn-primary:hover {
+.btn-primary:hover {
   border-color: #cb9998;
   background-color: #a46872;
+}
+
+.Toastify__progress-bar--info,
+.Toastify__toast-icon {
+  --toastify-color-progress-info: #cb9998;
+  --toastify-icon-color-info: #cb9998;
 }

@@ -1,4 +1,5 @@
 import "./Main.css";
+import "./Button.css";
 import Button from "./Button";
 
 const Main = () => {
@@ -25,7 +26,7 @@ const Main = () => {
       </div>
       <div className="m-ctn">
         <div className="s-ctn responsive">
-          <div className="card" style={{ maxWidth: "500px" }}>
+          <div className="card" style={{ maxWidth: "450px" }}>
             <img
               src={`${import.meta.env.BASE_URL}/home/vela1.png`}
               className="vela1 card-img-end img-fluid rounded-start"
@@ -43,7 +44,7 @@ const Main = () => {
         </div>
 
         <div className="s-ctn responsive">
-          <div className="card" style={{ maxWidth: "500px" }}>
+          <div className="card" style={{ maxWidth: "450px" }}>
             <img
               src={`${import.meta.env.BASE_URL}/home/vela2.png`}
               className="vela1 card-img-end img-fluid rounded-start"
@@ -54,6 +55,25 @@ const Main = () => {
               <p>
                 Esta es una vela que al encenderla comenzarán a visualizarse las
                 cuentitas con el texto que desees.
+              </p>
+              <Button />
+            </div>
+          </div>
+        </div>
+
+        <div className="s-ctn responsive">
+          <div className="card" style={{ maxWidth: "450px" }}>
+            <img
+              src={`${import.meta.env.BASE_URL}/home/spray.jpg`}
+              className="vela1 card-img-end img-fluid rounded-start"
+              alt="..."
+            />
+            <div className="card-body">
+              <h4 className="card-title">Spray Aromatizante</h4>
+              <p>
+                Dale un olor agradable a tus recuerdos y a nuestras velas con
+                dedicatorias con un spray aromatizante disponible en distintos
+                tipos de fragancias.
               </p>
               <Button />
             </div>
@@ -97,19 +117,27 @@ const Main = () => {
       </div>
       <div className="contain1" id="contact">
         <form name="contact">
-          <h2 style={{ marginBottom: "2rem" }}>Formulario de contacto</h2>
-          <label>
-            Nombre completo:
-            <input type="text" name="nombre" />
-          </label>
-          <label>
-            Correo Electrónico:
-            <input type="mail" name="correo" />
-          </label>
+          <h2 style={{ marginBottom: "2rem", textAlign: "center" }}>
+            Formulario de contacto
+          </h2>
+          <p>¿Tienes algún comentario o sugerencia?,Nosotros te escuchamos😁</p>
+          <input
+            type="text"
+            name="nombre"
+            placeholder="nombre completo"
+            required
+          />
+          <input
+            type="mail"
+            name="correo"
+            placeholder="Correo Electrónico"
+            required
+          />
           <textarea
             type="text"
             name="mensaje"
             placeholder="Escribe tu mensaje"
+            required
           />
           <button type="submit" className="btn btn-primary">
             Enviar

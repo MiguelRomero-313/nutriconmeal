@@ -1,0 +1,20 @@
+---
+layout: ../../../components/layout.astro
+title: Velas con cuentitas
+description: Descubre mas sobre nuestras velas con cuentitas!
+author: Mistery Lux Team
+---
+
+# Sobre nuestras velas con cuentitas
+
+<img src="/home/vela2.png" alt="vela con cuentitas" style='width:25%;border-radius:15px;margin:1rem;'>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet magna pharetra sapien elementum condimentum sit amet laoreet lacus. Sed elementum elit lectus, ac feugiat mauris pretium a. Praesent neque diam, consequat accumsan vestibulum eget, gravida finibus neque. Duis iaculis ut leo ut fermentum. Pellentesque congue magna nec leo suscipit, vel aliquet lectus congue. Maecenas commodo diam mauris, eget semper justo faucibus vitae. Vivamus vitae quam tempus ligula eleifend hendrerit. Maecenas vitae libero libero. Sed diam erat, rhoncus a lacinia vel, mattis ut diam. Ut vel dui nec velit venenatis condimentum. Donec sodales consectetur odio sed facilisis.
+
+Nulla quis euismod nisl, a malesuada sem. Donec imperdiet leo gravida eros tincidunt, sit amet accumsan orci pulvinar. Aliquam accumsan ante ut urna hendrerit scelerisque. Suspendisse semper, nunc in aliquet porttitor, ex sapien elementum massa, sit amet egestas nulla sem sed turpis. Ut sollicitudin quis turpis at maximus. Etiam maximus metus vitae nulla elementum cursus. Cras et blandit lorem. Nulla et risus et nibh laoreet dapibus vitae in turpis. Nam euismod nunc vitae arcu porta fringilla. Quisque semper, erat eu laoreet convallis, quam nisi mattis nisi, a sollicitudin elit nisl vel libero. Mauris maximus suscipit diam, mattis euismod diam vestibulum sed. Fusce mollis lacus at arcu aliquam venenatis. Suspendisse imperdiet consectetur dui, et aliquet nisi molestie a.
+
+Nulla in diam dictum, consectetur arcu ac, ultrices arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean faucibus tortor enim, at interdum nisi lobortis vel. In a gravida lorem, in viverra quam. Pellentesque mollis, sapien vel sodales euismod, urna lacus rhoncus odio, at mollis orci risus quis odio. Sed porttitor consectetur arcu ut laoreet. Nulla sollicitudin, dolor eget mattis vestibulum, orci tellus tristique sem, vulputate scelerisque ligula ante quis sem. Donec vitae luctus tellus. Maecenas pulvinar et est quis efficitur. Aliquam in sapien pulvinar, laoreet odio a, viverra leo. Fusce at lacinia est. Cras venenatis bibendum massa a feugiat. Nam vulputate condimentum malesuada. Sed varius arcu purus, et rutrum mi mattis vel.
+
+Nulla tempor sed metus quis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc pharetra arcu aliquam auctor molestie. Morbi in lobortis odio. Mauris efficitur risus sit amet diam blandit, nec rhoncus arcu rhoncus. Morbi quis enim vitae turpis maximus maximus. Vestibulum metus dui, faucibus vitae nisl at, commodo viverra nulla. Nulla a nisi leo. Curabitur egestas pharetra quam, eget pharetra ex rutrum ut. Fusce quis velit vehicula mi aliquet bibendum. Integer sit amet maximus nisl, sed luctus erat. Quisque tortor augue, faucibus ac felis id, accumsan scelerisque libero. Fusce non aliquet urna. In commodo consequat placerat. Praesent quis tempor elit. In eu cursus leo.
+
+Proin dui dui, dictum in enim eget, pretium mollis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at enim nisl. Aenean eget felis urna. Praesent laoreet velit vel tortor pellentesque accumsan. Mauris fermentum libero a turpis volutpat luctus ut sed odio. Etiam rhoncus convallis leo, at porta metus euismod molestie. Phasellus vitae egestas nunc. Nullam quis tellus eu ante consequat interdum. Nullam eget scelerisque magna. Mauris fringilla velit vel elit vestibulum mattis. Vestibulum sit amet ligula eget enim gravida porta. Pellentesque vitae tellus non magna sollicitudin bibendum a sed diam. Curabitur blandit tellus augue, a volutpat mauris semper id. Integer vitae tincidunt nisl. Proin semper nisi vitae justo malesuada, vel elementum sem blandit.

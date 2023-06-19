@@ -1,5 +1,6 @@
 .navbar {
   background-color: #e1dad0;
+  padding-right: 2rem;
 }
 
 .nav-item a,
@@ -27,4 +28,16 @@
 .navbar-collapse {
   font-size: 19px;
   margin-left: 70%;
+}
+
+a#blog {
+  background-color: #cb9998;
+  border-radius: 20px;
+  transition: 0.5s all linear;
+  padding: 0.5rem 1rem;
+}
+
+a#blog:hover {
+  font-weight: bold;
+  color: #e1dad0;
 }

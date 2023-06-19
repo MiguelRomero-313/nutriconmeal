@@ -1,0 +1,26 @@
+---
+import "./Post.css";
+const pub = await Astro.glob("../pages/blog/post/*.md");
+---
+
+<h1>Bienvenido a nuestro blog</h1>
+<p>
+  Te damos la bienvenida a nuestro blog, aquí podrás conocer mas a profundidad
+  sobre nosotros y nuestros productos. :)
+</p>
+{
+  pub.map((pub) => {
+    return (
+      <div class="article">
+        <img src="./news.png" class="icon" />
+        <div class="post-ctn">
+          <a href={pub.url} class="link" title="clic aquí">
+            <h2>{pub.frontmatter.title}</h2>
+          </a>
+          <h5>Autor: {pub.frontmatter.author}</h5>
+          <p>{pub.frontmatter.description}</p>
+        </div>
+      </div>
+    );
+  })
+}

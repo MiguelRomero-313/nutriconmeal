@@ -40,9 +40,7 @@ const Button = () => {
         newestOnTop={false}
         closeOnClick
         rtl={false}
-        pauseOnFocusLoss
         draggable
-        pauseOnHover
         theme="light"
         toastStyle={{
           backgroundColor: "#fef2f5",
