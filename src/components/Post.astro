@@ -12,7 +12,7 @@ const pub = await Astro.glob("../pages/blog/post/*.md");
   pub.map((pub) => {
     return (
       <div class="article">
-        <img src="./news.png" class="icon" />
+        <img src={`${import.meta.env.BASE_URL}/news.png`} class="icon" />
         <div class="post-ctn">
           <a href={pub.url} class="link" title="clic aquí">
             <h2>{pub.frontmatter.title}</h2>
