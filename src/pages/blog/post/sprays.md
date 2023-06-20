@@ -1,13 +1,13 @@
 ---
 layout: ../../../components/layout.astro
-title: Velas con papel encerado
-description: Descubre mas sobre nuestras velas de papel encerado!
+title: Sprays aromatizantes y velas de cera de soya
+description: Descubre mas sobre nuestras nuestros nuevos sprays aromatizantes disponibles en diferentes aromas y nuestras nuevas velas hechas 100% con materiales de origen vegetal que tienen un gran numero de beneficios!
 author: Mistery Lux Team
 ---
 
-# Sobre Nuestras velas de papel encerado
+# Sobre Nuestras Los nuevos sprays aromatizantes y las nuevas velas de cera de soya
 
-<img src="/home/vela1.png" alt="vela de papel encerado" style='width:25%;border-radius:15px;margin:1rem;'>
+<img src="/home/spray.jpg" alt="vela de papel encerado" style='width:25%;border-radius:15px;margin:1rem;'>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet magna pharetra sapien elementum condimentum sit amet laoreet lacus. Sed elementum elit lectus, ac feugiat mauris pretium a. Praesent neque diam, consequat accumsan vestibulum eget, gravida finibus neque. Duis iaculis ut leo ut fermentum. Pellentesque congue magna nec leo suscipit, vel aliquet lectus congue. Maecenas commodo diam mauris, eget semper justo faucibus vitae. Vivamus vitae quam tempus ligula eleifend hendrerit. Maecenas vitae libero libero. Sed diam erat, rhoncus a lacinia vel, mattis ut diam. Ut vel dui nec velit venenatis condimentum. Donec sodales consectetur odio sed facilisis.
 
