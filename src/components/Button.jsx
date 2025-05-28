@@ -1,3 +1,4 @@
+import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Button.css";
@@ -44,7 +45,7 @@ const Button = () => {
         theme="light"
         toastStyle={{
           backgroundColor: "#fef2f5",
-          color: "#9c5549",
+          color: "#132232",
         }}
       />
     </>

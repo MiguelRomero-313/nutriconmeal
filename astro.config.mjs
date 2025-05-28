@@ -5,6 +5,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: "https://miguelrlia117.github.io",
-  base: "/misterylux-landing",
+  //site: "https://miguelrlia117.github.io",
+  base: "/nutriconmeal-landing",
 });

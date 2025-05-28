@@ -1,19 +1,20 @@
 .btn-primary {
-  background-color: #cb9998;
-  border-color: #a46872;
+  background-color: #132232;
+  border-color: #adc7ea;
   border-radius: 8px;
-  color: black;
+  color: #fff;
   font-size: 20px;
   width: 100%;
 }
 
 .btn-primary:hover {
-  border-color: #cb9998;
-  background-color: #a46872;
+  border-color: #132232;
+  background-color: #adc7ea;
+  color: #132232;
 }
 
 .Toastify__progress-bar--info,
 .Toastify__toast-icon {
-  --toastify-color-progress-info: #cb9998;
-  --toastify-icon-color-info: #cb9998;
+  --toastify-color-progress-info: #132232;
+  --toastify-icon-color-info: #132232;
 }

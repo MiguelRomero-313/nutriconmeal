@@ -1,0 +1,19 @@
+/*Estilos para el formulario de contacto*/
+
+form#cform {
+  background-color: #132232;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: white;
+}
+
+form#cform input,
+form#cform textarea {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+form#cform input:focus,
+form#cform textarea:focus {
+  background-color: #adc7ea;
+}

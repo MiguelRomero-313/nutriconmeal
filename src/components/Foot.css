@@ -1,8 +1,8 @@
 .contacto {
   font-size: 20px;
   padding: 20px 20px;
-  background-color: #a46872;
-  color: white;
+  background-color: #adc7ea;
+  color: #fff;
   text-align: center;
   height: 150px;
 }
@@ -16,5 +16,5 @@
 }
 
 .contacto img:hover {
-  background-color: #e1dad0;
+  background-color: #fff;
 }

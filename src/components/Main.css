@@ -6,66 +6,72 @@
   margin: 1.5rem;
 }
 
+/*Sección sobre nosotros*/
+#about {
+  justify-content: center;
+}
+
 #about .home {
   border-radius: 20px;
-  margin-left: 2rem;
 }
 
 .text-home {
   margin: 1rem;
 }
 
+.text-home h4 {
+  color: rgb(63, 86, 63);
+}
+
 #about .text-home {
   margin: 2rem;
+  width: 50%;
 }
 
-#contact {
+/*Sección formulario*/
+#formulario1 {
   padding: 2rem;
+  background-color: transparent;
 }
 
-#contact input,
-#contact button,
+#formulario1 input,
+#formulario1 button,
 textarea {
   width: 100%;
-  margin: 10px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
+/*Sección general*/
 .contain1 {
-  background-color: #e1dad0;
+  background-color: #adc7ea;
   border-radius: 40px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+  justify-self: center;
 }
 
 .contain1#about {
   flex-direction: row;
+  padding: 1rem;
 }
 
-.m-ctn {
-  display: flex;
+.contain1#mui {
+  flex-direction: row;
+  padding: 2rem;
   justify-content: space-evenly;
+  align-items: flex-start;
+  justify-self: normal;
+  background-color: transparent;
+  flex-wrap: wrap;
 }
 
-.s-ctn {
-  margin-top: 25px;
-}
-
-.card {
-  border-radius: 35px;
-  display: flex;
-  height: 100%;
-}
-
-.vela1 {
-  margin: 20px;
-  border-radius: 20px;
-}
-
+/*Dispositivos móviles*/
 @media only screen and (max-width: 768px) {
   .m-ctn {
     flex-direction: column;
@@ -78,7 +84,10 @@ textarea {
   }
 
   .home {
-    width: 40%;
-    margin: 1.5rem;
+    width: 60%;
+  }
+
+  #about .text-home {
+    width: 90%;
   }
 }

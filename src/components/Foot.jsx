@@ -1,3 +1,4 @@
+import React from "react";
 import "./Foot.css";
 
 const Foot = () => {
@@ -5,11 +6,14 @@ const Foot = () => {
     <footer className="contacto" id="contact">
       <div>
         <p>Síguenos en nuestras redes sociales:</p>
-        <a href="https://www.instagram.com/misteryluxmx/" target="_blank">
+        <a
+          href="https://www.instagram.com/nutri_con_meal?igsh=MW1nNHcwNnIzeHk3Mg=="
+          target="_blank"
+        >
           <img src={`${import.meta.env.BASE_URL}/contact/instagram.svg`} />
         </a>
         <a
-          href="https://www.facebook.com/people/Mistery-Lux/100092727324060/"
+          href="https://www.facebook.com/profile.php?id=61575801458458&mibextid=ZbWKwL"
           target="_blank"
         >
           <img src={`${import.meta.env.BASE_URL}/contact/facebook.svg`} />
@@ -18,7 +22,7 @@ const Foot = () => {
           <img src={`${import.meta.env.BASE_URL}/contact/email.svg`} />
         </a>
       </div>
-      <div>2023,MisteryLux®. Todos los derechos reservados.</div>
+      <div>2025,Nutriconmeal. Todos los derechos reservados.</div>
     </footer>
   );
 };

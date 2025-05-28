@@ -1,3 +1,4 @@
+import React from "react";
 import "./Nav.css";
 
 const Nav = () => {
@@ -6,9 +7,10 @@ const Nav = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href={`${import.meta.env.BASE_URL}`}>
           <img
-            src={`${import.meta.env.BASE_URL}/Imagotipo.svg`}
+            src={`${import.meta.env.BASE_URL}/nutriconmeal_logo.png`}
             alt="logotipo"
           />
+          Nutriconmeal
         </a>
         <button
           className="navbar-toggler"
@@ -25,7 +27,7 @@ const Nav = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 href={`${import.meta.env.BASE_URL}`}
               >
