@@ -1,0 +1,48 @@
+.clientes-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.clientes-titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  width: fit-content;
+  justify-self: center;
+  background-color: #adc7ea88;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.clientes-grid {
+  display: flex;
+  gap: 2rem;
+  overflow: auto;
+}
+
+.cliente-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.cliente-card:hover {
+  transform: translateY(-5px);
+}
+
+.cliente-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.cliente-nombre {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

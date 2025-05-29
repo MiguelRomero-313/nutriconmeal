@@ -2,6 +2,6 @@ body {
   background-image: url("../../public/main_bg.svg");
   background-size: 6rem;
   background-repeat: space;
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255, 0.92);
   background-blend-mode: lighten;
 }

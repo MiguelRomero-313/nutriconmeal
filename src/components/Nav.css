@@ -30,10 +30,11 @@
   transition: 0.5s all linear;
   padding: 0 0.5rem;
   letter-spacing: 1px;
+  margin: 0 3rem;
 }
 
 .navbar-brand img {
-  width: 55px;
+  width: 60px;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -44,7 +45,7 @@
 
 .navbar-collapse {
   font-size: 19px;
-  margin-left: 70%;
+  margin-left: 60%;
 }
 
 a#blog {
@@ -56,4 +57,16 @@ a#blog {
 }
 .navbar-light .navbar-toggler {
   background-color: #adc7ea;
+}
+
+@media (max-width: 2070px) {
+  .navbar-collapse {
+    margin-left: 55%;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar-light .navbar-brand {
+    margin: 0 0.5rem;
+  }
 }
